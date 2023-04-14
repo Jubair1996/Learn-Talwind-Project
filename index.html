@@ -31,19 +31,44 @@
     <title>Document</title>
   </head>
   <body>
-    <!-- navbar -->
-
-    <nav class="bg-white h-20 fixed top-0 right-0 left-0">
-      <div
-        class="flex justify-between items-center h-20 w-full max-w-7xl mx-auto font-bebas px-5"
+    <header>
+      <!-- navbar -->
+      <nav class="bg-white h-20 fixed top-0 right-0 left-0">
+        <div
+          class="flex justify-between items-center h-20 w-full max-w-7xl mx-auto font-bebas px-5"
+        >
+          <h1 class="text-2xl">Jhaka naka production</h1>
+          <ul class="flex text-lg gap-8">
+            <li>About us</li>
+            <li>Our movies</li>
+            <li>Services</li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Banner Section Starts -->
+      <section
+        class="h-screen pt-20 bg-[url('./images/banner.jpg')] bg-cover"
       >
-        <h1 class="text-2xl">Jhaka naka production</h1>
-        <ul class="flex text-lg gap-8">
-          <li>About us</li>
-          <li>Our movies</li>
-          <li>Services</li>
-        </ul>
-      </div>
-    </nav>
+        <div class="h-full w-full max-w-7xl mx-auto px-5 flex items-center">
+          <div class="font-bebas">
+            <h2 class="text-white text-lg">Movie production studio</h2>
+            <h1 class="text-7xl text-white">Films made to</h1>
+            <h1 class="text-7xl text-yellow">Perfection</h1>
+            <p class="font-montserrat text-white max-w-lg mb-10">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </p>
+
+            <button
+              class="font-bebas border-2 border-white py-2 px-3 text-white text-lg hover:bg-yellow hover:border-yellow hover:text-black transition-all"
+            >
+              Discover more
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Banner Section Ends -->
+    </header>
+    
   </body>
 </html>
